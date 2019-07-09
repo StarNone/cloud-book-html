@@ -56,7 +56,7 @@ export default {
       return new Promise((resolve) => {
         let id = this.$route.params.id
         let _this = this
-        this.$axios.get(this.$api.getCategory + id + '/books', {
+        this.$axios.get(this.$api.getCategory + id, {
           params: this.queryData
         }).then(res => {
           console.log(res)

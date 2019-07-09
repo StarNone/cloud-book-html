@@ -1,0 +1,54 @@
+@import './px2.scss';
+
+body {
+  font-size: 14px !important;
+  background: #fff;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1,h2,h3,h4 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: px2-to-rem(18);
+}
+
+.mint-cell-wrapper {
+  background-size: 120% 0px !important;
+}
+
+.mint-cell:last-child {
+  background-size: 120% 0px !important;
+}
+
+.iconfont {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
